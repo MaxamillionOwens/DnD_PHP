@@ -1,0 +1,70 @@
+body {
+  background-image: url('./papyrus_texture.jpg'); 
+  background-repeat: repeat;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  line-height: 1.5;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Segoe Script', cursive;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Segoe Script', cursive;
+}
+
+nav, ul, li, a {
+  font-family: 'Segoe Script', cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+footer {
+  font-family: 'Segoe Script', cursive;
+  font-size: 14px;
+}
+
+/* Additional styling for specific sections */
+
+#about {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#education, #projects, #contact {
+  padding: 20px;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Add more section-specific styling if needed */
